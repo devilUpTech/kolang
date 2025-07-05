@@ -7,7 +7,7 @@ on:
     branches: [ kolang ]
 
 jobs:
-  build_and_test:
+  build:
     runs-on: macos-latest
     steps:
       - name: Checkout Code
