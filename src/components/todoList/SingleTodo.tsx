@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Todo } from '../../model';
 import { AiFillDelete, AiFillEdit } from 'react-icons/ai';
 import { MdDone } from 'react-icons/md';
-import { Draggable, Droppable } from 'react-beautiful-dnd';
+import { Draggable } from 'react-beautiful-dnd';
 
 interface Props {
     index: number;
